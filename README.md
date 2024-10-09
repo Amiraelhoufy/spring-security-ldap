@@ -1,7 +1,7 @@
 # Spring Security with LDAP Authentication
 A simple spring boot application showing how to integrate LDAP (Lightweight Directory Access Protocol) authentication using Spring Security. The configuration allows users to authenticate via an LDAP server.
 
-# Features
+## Features
 - LDAP-based authentication with Spring Security.
 - Simple, easy-to-understand implementation based on official Spring documentation
  ```https://spring.io/guides/gs/authenticating-ldap```
@@ -25,13 +25,13 @@ The application will run on  ```http://localhost:8080 ```
 - **Username**:  ```ben ```
 - **Password**:  ```benspassword ```
 
-# Project Structure
+## Project Structure
 - **src/main/java**: Contains the source code, including security configuration and controller.
 - **src/main/resources**: Contains application properties and LDAP configuration.
 - **LDAP Server Configuration:**
 This application uses an embedded LDAP server by default. The configuration can be found in the application.properties file.
 
-# Dependencies
+## Dependencies
 To set up LDAP authentication, the following dependencies are included in the pom.xml file:
  ```xml
 <dependencies>
