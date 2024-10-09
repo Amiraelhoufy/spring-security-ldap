@@ -4,7 +4,7 @@ A simple spring boot application showing how to integrate LDAP (Lightweight Dire
 ## Features
 - LDAP-based authentication with Spring Security.
 - Simple, easy-to-understand implementation based on official Spring documentation
-  [Authenticating a User with LDAP] (https://spring.io/guides/gs/authenticating-ldap)
+- [Authenticating a User with LDAP](https://spring.io/guides/gs/authenticating-ldap)
 
 ## Running the Application
 1. **Clone the repository:**
